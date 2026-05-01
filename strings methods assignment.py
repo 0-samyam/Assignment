@@ -93,9 +93,13 @@ tag_list = tags.split(", ")
 print(" ".join("#" + tag for tag in tag_list))
 
 # Q22. Split passenger names and count total
-passengers = "Ram, Shyam, Hari, Sita"
-passenger_list = passengers.split(", ")
-print(len(passenger_list))
+passengers = input("Enter passenger names separated by commas: ")
+passenger_list = passengers.split(",")
+passenger_list = [passenger.strip() for passenger in passenger_list if passenger.strip() != ""]
+print("Passengers:")
+for passenger in passenger_list:
+    print("- " + passenger)
+print("Total passengers: " + str(len(passenger_list)))
 
 # Q23. Join words to form a sentence
 words = ["The", "flight", "departs", "at", "6AM"]
