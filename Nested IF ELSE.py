@@ -1,5 +1,3 @@
-import math
-
 # Q4. Student Resource Portal
 username = input("Enter username: ")
 password = input("Enter password: ")
@@ -211,7 +209,7 @@ else:
     print(f"Final Amount to Pay: Rs. {total_amount:.2f}")
 
 
-# Q17. Weight Conversion (Updated Gravity values from PDF)
+# Q17. Weight Conversion
 print("Planets: 1=Mercury  2=Venus  3=Mars  4=Jupiter  5=Saturn  6=Uranus  7=Neptune")
 earth_weight = float(input("Enter your Earth weight (kg): "))
 planet = int(input("Enter planet number (1-7): "))
@@ -264,7 +262,7 @@ else:
 # Q19. ATM Simulation
 balance = 5000.0
 correct_pin = 123
-is_valid = True # Assuming card is valid as per PDF
+is_valid = True
 
 if is_valid:
     pin = int(input("Enter your PIN: "))
@@ -293,7 +291,7 @@ else:
     print("Invalid card.")
 
 
-# Q20. Magic Forest (Updated to follow PDF Flowchart)
+# Q20. Magic Forest
 print("Welcome to the Magic Forest!")
 direction = input("1. GO NORTH OR SOUTH? ").strip().upper()
 
@@ -317,7 +315,7 @@ else:
     print("Invalid direction.")
 
 
-# Q21. Smart Elevator (Updated to follow PDF Flowchart)
+# Q21. Smart Elevator
 floor = int(input("Enter floor number (0-10): "))
 
 if 0 <= floor <= 10:
@@ -334,7 +332,7 @@ else:
     print("DISPLAY: INVALID FLOOR.")
 
 
-# Q22. Facebook Account Creation (New based on PDF Page 9)
+# Q22. Facebook Account Creation
 print("--- Facebook: Create a New Account ---")
 first_name = input("First name: ").strip()
 last_name = input("Last name: ").strip()
